@@ -1,0 +1,18 @@
+{
+  "name": "bs-sosdigital",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build --base=2025-p2a-web-bootstrap-school-RadovanLahoda && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
